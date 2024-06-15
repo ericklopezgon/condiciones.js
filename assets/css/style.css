@@ -1,0 +1,53 @@
+/* Generales */
+body {
+    margin: 0;
+    border: 0;
+}
+
+/* _____ Ejercicio 1 _____ */
+#img_border_js {
+    display: block;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+/* _____ ejercicio 2 _____ */
+
+.ejercicio2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.imgbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#img_sticker {
+    width: 200px;
+}
+
+.total_stickers {
+    text-align: center;
+}
+
+/* _____ Ejercicio 3 _____ */
+.ejercicio3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.password_text {
+    color: red;
+    font-size: large;
+    padding-bottom: 5px;
+}
+
